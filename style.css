@@ -1,0 +1,423 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.nav{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: auto auto;
+    height:64px;
+    width: 100%;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    padding: 10px;
+}
+.jadi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(kar2.png);
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    top:10%
+}
+.bomma{
+    text-align: center;
+    align-items: center;
+    
+} 
+button{
+    border-radius: 20px;
+    
+    border: 0px solid;
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    color: black;
+}
+.akhil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: white;
+}
+
+.feature-box {
+    width: 30%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.feature-image {
+    width: 100%;
+    height: auto;
+}
+
+.feature-content {
+    padding: 20px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.read-more {
+    color: #f4a261;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #e76f51;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.subscription-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('couple.jpg') no-repeat center center/cover; 
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.theme-text {
+    font-size: 1.5rem;
+    color: #f4a261;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.main-heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-input {
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 50px;
+    border: none;
+    width: 60%;
+    outline: none;
+}
+
+.subscribe-button {
+    background-color: #f4a261;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e76f51;
+}
+.vamshi{
+    display: flex;
+    justify-content: space-evenly;
+     padding-left: 20px; 
+     /* margin-left: 4% */
+}
+.paka{
+    border: 0px solid;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:40px;
+    transition: transform 0.5s ease-in;
+    cursor:pointer;
+}
+.paka2{
+    display: flex;  
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 70px;
+    color: rgb(208, 122, 91);
+}
+.va{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.va1,.va2{
+    flex-basis: 50%;
+}
+.sal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 560px;
+}
+.sallu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.va11{
+    text-align: center;
+}
+p{
+    color: rgb(114, 109, 101);
+}
+.gird{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+
+}
+
+.form-section, .contact-section {
+    /* width: 48%; */
+    flex-basis: 50%;
+    padding-left: 9%;
+}
+
+
+h2 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #d2905b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #ba7848;
+}
+
+.contact-section p {
+    line-height: 1.6;
+}
+
+.contact-section strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 50px;
+    height: 50px;  
+}
+.contact-section{
+    padding-left: 50px;
+}
+
+
+
+.paka img:hover{
+    transform: scale(0.9);
+}
+
+@media only screen and (max-width:1024px){
+    .jadi{
+        width: 120%;
+    }
+
+    .features-section, .akhil{
+        width: 120%;
+    }
+    .subscription-section{
+        width: 120%;
+    }
+
+    .va, .sal{
+        width: 120%;
+    }
+    .container{
+        width: 120%;
+    }
+}
+@media only screen and (max-width:768px){
+    .jadi{
+        width: 155%;
+    }
+
+    .features-section, .akhil{
+        width: 155%;
+    }
+    .subscription-section{
+        width: 155%;
+    }
+
+    .va, .sal{
+        width: 155%;
+    }
+    .container{
+        width: 155%;
+    } 
+}
+ @media only screen and (max-width:425px){
+    .jadi{
+        width: 425px;
+    }
+    .nav{
+        width: 425px;
+        top:1%;
+    }
+    .features-section, .akhil{
+        width: 100%;
+    }
+    .subscription-section{
+        width: 100%;
+    }
+    .va,.sal{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    } 
+    .vamshi{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    
+} 
